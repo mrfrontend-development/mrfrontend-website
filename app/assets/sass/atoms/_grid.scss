@@ -1,0 +1,24 @@
+.col {
+  float: left;
+  overflow: hidden;
+  @include transition(ease-in-out right, .5s);
+  &.col_full {
+    width: 100%;
+  }
+  &.col_half {
+    width: 50%;
+  }
+  &.col_third {
+    width: 33.33%;
+  }
+  &.col_quarter {
+    width: 25%;
+  }
+  &.col_fifth {
+    width: 20%;
+  }
+  &.col_sixth {
+    width: 16.66%;
+  }
+}
+

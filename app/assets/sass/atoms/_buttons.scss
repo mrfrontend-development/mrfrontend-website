@@ -1,0 +1,31 @@
+%button {
+  border: 0;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+button,
+input[type="submit"],
+.button--large {
+  color: $white;
+  background: $pink;
+  padding: 1rem;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    background: darken($pink, 10%);
+  }
+}
+
+button,
+input[type="submit"] {
+  @extend %button;
+}
+
+.button {
+  &--large {
+    text-decoration: none;
+  }
+}
