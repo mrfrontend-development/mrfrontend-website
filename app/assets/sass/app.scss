@@ -5,8 +5,11 @@
 @import 'vendor/normalize';
 
 //atoms
-@import "atoms/vars";
+@import "atoms/colors";
 @import "atoms/defaults";
+@import "atoms/universal";
+@import "atoms/html";
+@import "atoms/body";
 @import "atoms/fontface";
 @import "atoms/typo";
 @import "atoms/table";
@@ -16,6 +19,7 @@
 @import "atoms/buttons";
 @import "atoms/hr";
 @import "atoms/print";
+@import "atoms/logo";
 
 //molecules
 @import "molecules/social-nav";
@@ -25,10 +29,13 @@
 @import "organism/register-form";
 
 //template
-@import "templates/site-container";
-@import "templates/page-container";
+@import "templates/introduction-section";
+@import "templates/service-section";
+@import "templates/what-we-teach-section";
 
 //pages
-@import "pages/page-footer";
+@import "pages/_site-container";
+@import "pages/_page-container";
+@import "pages/_site-footer";
 
 

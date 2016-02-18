@@ -14,6 +14,7 @@ input[type="submit"],
   background: $pink;
   padding: 1rem;
   transition: 0.3s ease-in-out;
+  display: inline-block;
   &:hover {
     background: darken($pink, 10%);
   }

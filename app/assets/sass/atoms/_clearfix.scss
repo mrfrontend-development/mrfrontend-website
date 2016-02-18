@@ -1,14 +1,10 @@
-%clear {
-  content: ' ';
-  display: table;
-}
-.clear {
+%clearfix {
   *zoom: 1;
-  &:before {
-    @extend %clear;
+  &:before, &:after {
+    content: ' ';
+    display: table;
   }
   &:after {
-    @extend %clear;
     clear: both;
   }
 }

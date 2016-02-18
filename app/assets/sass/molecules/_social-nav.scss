@@ -2,11 +2,15 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  @extend .clear;
+  @extend %clearfix;
   &__item {
     float: left;
   }
   &__link {
-    color: $white;
+    color: $pink;
+    text-decoration: none;
+    &:hover {
+      color: darken($pink, 10%);
+    }
   }
 }

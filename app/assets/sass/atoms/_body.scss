@@ -1,0 +1,6 @@
+body {
+  @extend %marginPaddingReset;
+  color: $white;
+  font-size: 1rem;
+  font-family: 'Roboto Slab', serif;
+}

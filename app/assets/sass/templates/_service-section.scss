@@ -1,0 +1,7 @@
+.service-section {
+  background: $grey;
+  color: $black-lighter;
+}
+.service-wrapper {
+  @extend %contentWrapper;
+}

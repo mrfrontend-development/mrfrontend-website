@@ -1,0 +1,7 @@
+.what-we-teach-section {
+  background: $pink;
+  color: $white;
+}
+.what-we-teach-wrapper {
+  @extend %contentWrapper;
+}

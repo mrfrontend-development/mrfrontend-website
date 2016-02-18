@@ -1,17 +1,10 @@
-* {
-  box-sizing: border-box;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-body,html{
+%marginPaddingReset {
   margin: 0;
   padding: 0;
 }
-html {
-  line-height: 1.48;
-}
-body {
-  color: $white;
-  font-size: 1.5rem;
-  font-family: 'Roboto Slab', serif;
+
+%contentWrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 6rem 0;
 }
