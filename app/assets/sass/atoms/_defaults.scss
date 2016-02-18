@@ -6,5 +6,8 @@
 %contentWrapper {
   max-width: 700px;
   margin: 0 auto;
-  padding: 6rem 0;
+  padding: 5rem 0;
+  @media screen and (max-width: 768px) {
+    padding: 5rem 2rem;
+  }
 }
