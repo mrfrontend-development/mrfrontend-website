@@ -1,0 +1,10 @@
+.mission-section {
+  background: $grey-dark;
+  color: $white;
+  a {
+    color: $white;
+  }
+}
+.mission-wrapper {
+  @extend %contentWrapper;
+}
