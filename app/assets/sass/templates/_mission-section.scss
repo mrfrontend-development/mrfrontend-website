@@ -2,7 +2,7 @@
   background: $grey-dark;
   color: $white;
   a {
-    color: $white;
+    color: lighten($pink-neon, 10%);
   }
 }
 .mission-wrapper {
